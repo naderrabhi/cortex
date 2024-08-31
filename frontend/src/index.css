@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+  --font-base: 'Inter';
+  
+  --color-gray: #868C91;
+  --color-blue: #0F5391;
+  --color-purple: #8149df;
+  --color-green: #031422;
+  --color-black: #0C0C0C;
+  --color-white: #FFFFFF;
+
+  --bg-black: #000000;
+  --bg-white: #f8f8f8;
+}
+
+::selection {
+  color: var(--color-purple);
+}
+
+body,
+.app,
+.content {
+  font-family: var(--font-base);
+  background-color: var(--bg-black);
+  background-image: url("./assets/images/intro.png");
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+.app,
+.content {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

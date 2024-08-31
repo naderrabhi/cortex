@@ -1,0 +1,34 @@
+.App {
+  overflow-x: hidden;
+}
+
+.react-multi-carousel-track {
+  gap: 14rem !important;
+}
+
+.button-text {
+  margin-right: 8px;
+}
+
+.icon-button {
+  margin-left: 8px;
+}
+
+@media (max-width: 1300px) {
+  .react-multi-carousel-track {
+    gap: 10rem !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .react-multi-carousel-track {
+    gap: 6rem !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .react-multi-carousel-track {
+    gap: 4rem !important;
+  }
+}
+  
